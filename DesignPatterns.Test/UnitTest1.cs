@@ -14,7 +14,7 @@ namespace DesignPatterns.Test
             var myFactory = FactoryProducer.getFactory("Shape");
             
             
-            // Act
+            // Act 1
             var shape1 = myFactory.getShape("Triangle");
 
             // Assert
